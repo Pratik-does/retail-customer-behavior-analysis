@@ -1,100 +1,103 @@
-# Retail Customer Behavior Analysis
+# Retail Customer Behavior Analysis | Python, SQL, PostgreSQL, Power BI
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
-## Overview
 
-This project analyzes retail customer shopping behavior to identify what drives revenue, repeat purchases, and customer engagement.  
-It combines Python, SQL, PostgreSQL, and Power BI to turn raw customer data into clear business insights.
 
-The final project includes data preparation, SQL-based analysis, an interactive dashboard, and a business report.
+## Project Overview (Quick Understanding)
 
-## Business Problem
+![Insight Map](assets/retail_customer_behavior_insights_map.png)
 
-A retail company wants to better understand customer behavior across product categories, demographics, subscription status, discounts, and shipping choices.
+This project analyzes retail customer shopping behavior to identify **what drives revenue, repeat purchases, and customer engagement**.
 
-The main question is:
+Built using **Python, SQL, PostgreSQL, and Power BI**, the project transforms raw data into **clear business decisions** through structured analysis and visualization.
 
-> How can customer shopping data be used to identify trends, improve customer engagement, and optimize marketing and product strategy?
+---
 
-## Project Objective
+## Why This Project Matters
 
-The goal of this project is to find:
+Retail companies collect large amounts of customer data but often struggle to turn it into actionable strategy.
 
-- the main revenue drivers
-- the strongest customer segments
-- product category performance
-- the impact of subscription status
-- shipping and discount patterns
-- demographic trends in revenue and spending
+This project answers key business questions:
+- What drives revenue the most?
+- Which customers are most valuable?
+- Does subscription actually increase spending?
+- How do discounts and shipping affect behavior?
 
-## Tools Used
+---
 
-- Python
-- Pandas
+## Key Insights (Executive Summary)
+
+- **Clothing is the top revenue category** → primary growth driver  
+- **Male customers generate higher revenue** → key target segment  
+- **Young & Middle-aged groups dominate spending** → focus demographic  
+- **Loyal customers form the largest base** → strong retention opportunity  
+- **Subscription has minimal impact on spending** → needs improvement  
+- **Discounts and shipping influence behavior differently** → strategic use required  
+
+---
+
+## Dashboard Preview
+
+### Executive Dashboard
+![Dashboard Overview](screenshots/dashboard_overview.png)
+
+### Interactive Filter Example
+![Dashboard Filtered](screenshots/dashboard_clothing_filter.png)
+
+---
+
+## SQL Analysis (Proof of Work)
+
+### Customer Segmentation
+![Customer Segmentation](screenshots/sql_revenue_by_customer_segment.png)
+
+### Subscription Comparison
+![Subscription Analysis](screenshots/sql_subscription_comparison.png)
+
+### Revenue by Gender
+![Revenue by Gender](screenshots/sql_revenue_by_gender.png)
+
+---
+
+## Approach
+
+This project follows a real-world analytics workflow:
+
+1. Data cleaning and preprocessing using Python  
+2. Data storage and querying using PostgreSQL  
+3. Business analysis using SQL  
+4. Visualization using Power BI  
+5. Insight generation and business recommendations  
+
+---
+
+## Tools & Technologies
+
+- Python (Pandas)
 - SQL
 - PostgreSQL
 - Power BI
 - Jupyter Notebook
 
-## Workflow
-
-1. Collected the raw dataset  
-2. Cleaned and prepared the data in Python  
-3. Stored the cleaned data in PostgreSQL  
-4. Wrote SQL queries to answer business questions  
-5. Built an interactive Power BI dashboard  
-6. Prepared a report and presentation with findings and recommendations
-
-## Key Findings
-
-- Clothing is the top revenue-generating category
-- Male customers contribute more revenue than female customers
-- Young and middle-aged customers are the strongest revenue groups
-- Loyal customers make up the largest share of the customer base
-- Subscription status does not significantly change average spend
-- Discount usage and shipping type both influence buying behavior
-
-## Dashboard Highlights
-
-The Power BI dashboard includes:
-
-- total customers
-- average purchase amount
-- average review rating
-- subscription split
-- revenue by category
-- sales by category
-- revenue by age group
-- sales by age group
-- interactive slicers for deeper analysis
-
-## SQL Analysis
-
-The SQL analysis includes queries for:
-
-- revenue by gender
-- customer segmentation into New, Returning, and Loyal
-- subscription comparison
-- top products by category
-- revenue by age group
-- shipping comparison
-- discount behavior
-- repeat buyer analysis
+---
 
 ## Business Recommendations
 
-Based on the analysis, the company should:
+- Improve the value of the **subscription model**
+- Focus on **high-performing categories (Clothing)**
+- Target **Male, Young, and Middle-aged customers**
+- Use **discounts selectively** to protect margins
+- Strengthen **loyalty-based retention strategies**
+- Optimize **shipping strategy for customer experience**
 
-- improve the value of the subscription program
-- focus more on the Clothing category
-- target Male, Young, and Middle-aged customers
-- use discounts more selectively
-- strengthen loyalty-based marketing
-- review shipping strategy to support customer satisfaction
+---
+
+## Repository Structure
+
 
 ## Repository Structure
 
